@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="RPS.css">
+</head>
+<body>
+    <h1>Rock_Paper_Scissor</h1>
+    <div class="choices">                  <!--outer div class for style-->
+
+        <div  class="choice" id="rock" >      <!--choice class for style as well as access into js-->
+            <img src="rock.png" />
+        </div>                                <!-- id for unique identification-->
+        <div  class="choice" id="paper">
+            <img src="paper.png" />
+        </div>
+
+        <div class="choice" id="scissor" >
+            <img src="scisor.png" />
+        </div>                 
+    </div>
+    <div class="score_bord">
+        <div class="score">
+            <p id="user_score">0</p>
+            <p>User</p>                        <!--user_score id for access the user score-->
+        </div>
+        <div class="score">
+            <p id="computer_score">0</p>               <!--comp_score id for access the user score-->
+            <p>Computer</p>
+        </div>
+    </div>
+    <div class="msg-container">
+        <p id="msg">Start Game</p>               
+    </div>
+</body>
+<script src="RPS.js"></script>
+</html>
